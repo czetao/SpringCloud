@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  #指定需要激活哪一份配置
+#  profiles:
+ #   active: prop
+    #应用地址
+  application:
+    name: provider-demo
+
+eureka:
+  instance:
+    hostname: localhost
+    # 使用ip地址来注册
+    prefer-ip-address: true
+  # 声明要往哪个注册中心注册服务
+  client:
+    service-url:
+      #服务端地址
+      defaultZone: http://localhost:7776/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
