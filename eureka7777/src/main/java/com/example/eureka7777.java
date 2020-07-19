@@ -1,18 +1,15 @@
-package com.example.demo;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-//声明是个注册中心
-@EnableEurekaServer
 @SpringBootApplication
-public class DemoApplication {
-
+@EnableEurekaServer
+public class eureka7777 {
     public static void main(String[] args) {
 
-        SpringApplication.run(DemoApplication.class,
+        SpringApplication.run(eureka7777.class,
                 args);
     }
-
 }

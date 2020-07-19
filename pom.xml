@@ -9,7 +9,12 @@
 <version>1.0-SNAPSHOT</version>
     <modules>
         <module>commmon-test</module>
+        <module>eureka7777</module>
+        <module>eureka</module>
+        <module>customer-test</module>
+        <module>provider-test</module>
     </modules>
+
     <packaging>pom</packaging>
 
     <properties>

@@ -6,14 +6,10 @@ spring:
     name: customer-demo
 
 eureka:
-  instance:
-    hostname: localhost
-    # 使用ip地址来注册
-    prefer-ip-address: true
   # 声明要往哪个注册中心注册服务
   client:
     service-url:
-      defaultZone: http://localhost:7776/eureka
+      defaultZone: http://eureka7776.com:7776/eureka/,http://eureka7777.com:7777/eureka/
   # 开启容错处理机制，在springboot中hystrix已经与feign集成。引入feign就已经引入hystrix
 feign:
   hystrix:

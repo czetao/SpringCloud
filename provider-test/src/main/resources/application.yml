@@ -18,7 +18,7 @@ eureka:
   client:
     service-url:
       #服务端地址
-      defaultZone: http://localhost:7776/eureka
+      defaultZone: http://eureka7776.com:7776/eureka/,http://eureka7777.com:7777/eureka/
 
 management:
   endpoints:

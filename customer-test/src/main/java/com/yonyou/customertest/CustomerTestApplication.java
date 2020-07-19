@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 //Eureka客户端
 @EnableEurekaClient
 @SpringBootApplication
-//Feign客户端
+//Feign客户端,通过此注解开启feign客户端
 @EnableFeignClients
 public class CustomerTestApplication {
 
