@@ -13,6 +13,7 @@
         <module>eureka</module>
         <module>customer-test</module>
         <module>provider-test</module>
+        <module>rabbitmq</module>
     </modules>
 
     <packaging>pom</packaging>
