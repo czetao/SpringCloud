@@ -2,8 +2,12 @@ spring:
   application:
     name: rabbitmq
   rabbitmq:
-    host: 192.168.31.216
+    host: localhost
     port: 5672
-    username: ems
-    password: 123
-    virtual-host: /ems
+    username: admin
+    password: admin
+    virtual-host: /
+    # 提前抓取消息的个数，处理完一条再拿一条
+    listener:
+      simple:
+        prefetch: 1

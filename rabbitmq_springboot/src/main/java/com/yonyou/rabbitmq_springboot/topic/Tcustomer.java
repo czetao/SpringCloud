@@ -9,7 +9,10 @@ import org.springframework.stereotype.Component;
 /**
  * @author czetao
  * @ClassName Tcustomer.java
- * @Description TODO
+ * @Description 发布订阅 topicExchange
+ * 与DirectExchange类似，区别在于routingkey 必须是多个单词的列表，并且以 . 分割
+ * 1. # 指的是0个或多个单词
+ * 2. * 代指一个单词
  * @createTime 2020年08月02日
  */
 @Component

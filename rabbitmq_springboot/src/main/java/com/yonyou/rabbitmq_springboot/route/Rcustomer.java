@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 /**
  * @author czetao
  * @ClassName Rcustomer.java
- * @Description 路由模型
+ * @Description 路由模型 每一个queue都与exchange设置一个bindingkey
  * @createTime 2020年08月02日
  */
 @Component

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * @author czetao
  * @ClassName Cystomer.java
- * @Description 工作模式 消费者
+ * @Description 工作模式 消费者 合作关系 多个消费者一起消费
  * @createTime 2020年08月02日
  */
 @Component

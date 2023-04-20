@@ -10,14 +10,14 @@ import org.springframework.context.annotation.Configuration;
  * @Date: 2019/8/10 15:40
  * @Description: 无法注入bean，通过添加配置，注入bean
  */
-@Configuration
+//@Configuration
 public class FeignConfig {
 
     /***
      * 手动将bean注入到spring容器中
      * @return
      */
-    @Bean
+    //@Bean
     public UserFeignClient userFeignClient(){
         return new UserFeignClient() {
             @Override
